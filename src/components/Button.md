@@ -3,5 +3,5 @@ A very simple button.
 ```jsx
 import Button from "./Button";
 
-<Button text="We Salute You!" />
+<Button text="I MUST BE DREAMING" />
 ```
