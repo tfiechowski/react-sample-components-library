@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "styleguidist server"
   },
   "keywords": [],
   "author": "",
@@ -12,11 +13,19 @@
   "peerDependencies": {
     "@emotion/core": "10.x",
     "@emotion/styled": "10.x",
-    "react": "^16.x"
+    "react": "^16.x",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
     "@emotion/core": "^10.0.14",
     "@emotion/styled": "^10.0.14",
-    "react": "^16.8.6"
+    "babel-loader": "^8.0.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-styleguidist": "^9.1.13",
+    "webpack": "^4.38.0"
   }
 }
