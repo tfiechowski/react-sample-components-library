@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { font, primaryColors, shape } from "../config/styles";
+import { font, primaryColors, shape } from "config/styles";
 
 const Wrapper = styled.button`
   ${font}
