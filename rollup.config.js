@@ -15,7 +15,8 @@ export default [
     input,
     output: {
       file: packageJSON.main,
-      format: "cjs"
+      format: "cjs",
+      sourcemap: true
     },
     plugins: [
       babel({
@@ -30,7 +31,8 @@ export default [
     input,
     output: {
       file: minifyExtension(packageJSON.main),
-      format: "cjs"
+      format: "cjs",
+      sourcemap: true
     },
     plugins: [
       babel({
@@ -48,6 +50,7 @@ export default [
     output: {
       file: packageJSON.browser,
       format: "umd",
+      sourcemap: true,
       name: "reactSampleComponentsLibrary",
       globals: {
         react: "React",
@@ -69,6 +72,7 @@ export default [
     output: {
       file: minifyExtension(packageJSON.browser),
       format: "umd",
+      sourcemap: true,
       name: "reactSampleComponentsLibrary",
       globals: {
         react: "React",
@@ -92,6 +96,7 @@ export default [
     output: {
       file: packageJSON.module,
       format: "es",
+      sourcemap: true,
       exports: "named"
     },
     plugins: [
@@ -108,6 +113,7 @@ export default [
     output: {
       file: minifyExtension(packageJSON.module),
       format: "es",
+      sourcemap: true,
       exports: "named"
     },
     plugins: [
