@@ -5,6 +5,9 @@
   "main": "lib/index.js",
   "browser": "lib/index.umd.js",
   "module": "lib/index.es.js",
+  "files": [
+    "/lib"
+  ],
   "scripts": {
     "test": "jest",
     "start": "styleguidist server",
