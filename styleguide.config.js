@@ -10,4 +10,6 @@ module.exports = {
       ]
     }
   },
+  title: "React Sample Components Library",
+  styleguideDir: "dist-docs"
 };

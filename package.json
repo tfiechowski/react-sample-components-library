@@ -13,7 +13,8 @@
     "start": "styleguidist server",
     "build": "rollup -c",
     "prepublishOnly": "rm -rf lib && npm run build",
-    "postbuild": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz"
+    "postbuild": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+    "docs:build": "styleguidist build"
   },
   "keywords": [],
   "author": "",
